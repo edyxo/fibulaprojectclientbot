@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{fe62f853-e669-49a8-964b-5b3f1c013b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI_Elements">
+      <UniqueIdentifier>{3fb4995e-24f2-459b-ab48-b29eec0cbcf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{6ab161ac-9b50-47e9-9d93-53c821a56459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI_Elements">
+      <UniqueIdentifier>{f144a798-d60c-44cd-a21d-6d52d11f3298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{0015bf4b-4b10-4b7f-b721-1882f53a6c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{bf46eab9-60a7-405c-bc55-5e30312d3945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TODO">
+      <UniqueIdentifier>{60211e83-a526-4a73-9b8a-a613401c2110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\json">
+      <UniqueIdentifier>{88c4b591-fff6-415f-9870-92b19d55af44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\json">
+      <UniqueIdentifier>{73a8cec3-1279-4b58-9f62-d5bdd9bdb5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lzma">
+      <UniqueIdentifier>{1329cf25-bab2-442e-8653-ed921f63c906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lzma">
+      <UniqueIdentifier>{5cb1e446-b9ac-4133-8f3a-203d47e989d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\inputMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\outputMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rsa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocollogin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\lua54\onelua.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\creature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\effect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\distanceEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\animatedText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\staticText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thingManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\animator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\automap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LuaRuntime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocolgame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Options.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Button.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_CharacterView.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_CheckBox.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Element.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Grouper.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Label.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_ListBox.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Log.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_ScrollBar.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Separator.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_StaticImage.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_TextBox.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Window.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surfaceVulkan.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surfaceSoftware.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\softwareDrawning.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surfaceDirectDraw.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surfaceDirect3D11.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surfaceDirect3D9.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Info.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Motd.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Messagebox.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\MainWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ExitWarning.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Panel.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_PanelWindow.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Buttons.cpp">
+      <Filter>Source Files\TODO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\GeneralOptions.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ConsoleOptions.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Description.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surfaceOpengles.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surfaceOpengles2.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Channels.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\itemUI.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\AdvancedGraphicsOptions.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\GraphicsOptions.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Icon.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Container.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Flash.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Health.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_ContextMenu.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_MultiTextBox.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Quests.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Console.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\json\json.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\spriteManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lzma\Alloc.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lzma\LzFind.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lzma\LzFindMt.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lzma\LzmaDec.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lzma\LzmaEnc.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lzma\LzmaLib.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lzma\Threads.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Hotkeys.cpp">
+      <Filter>Source Files\TODO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\AdminTools.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ManaTrainer.cpp">
+      <Filter>Source Files\TODO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Outfits.cpp">
+      <Filter>Source Files\TODO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Chat.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\screenText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ProtocolOptions.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\EnterGame.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ContainerWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\SpellsWindow.cpp">
+      <Filter>Source Files\TODO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\SkillsWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ItemMove.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\TutorialHint.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Help.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\RuleViolations.cpp">
+      <Filter>Source Files\TODO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI_Elements\GUI_Content.cpp">
+      <Filter>Source Files\GUI_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ReadWrite.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\BattleWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\BugReport.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Minimap.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\TradeWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ShopWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\VipWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Inventory.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ModalDialog.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\IgnoreList.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\DeathNotification.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\CharacterList.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\Logout.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surfaceOpenglCore.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surfaceOpengl.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocolloginHttp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GUI\ServerBrowser.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inputMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\outputMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cursors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\circular_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rsa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocollogin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\lua54\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\lua54\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\lua54\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\lua54\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\creature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\distanceEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\animatedText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\staticText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thingManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\animator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\automap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LuaRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocolgame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Button.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Grouper.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Label.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_CheckBox.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_CharacterView.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Element.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_ListBox.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_ScrollBar.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_StaticImage.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_TextBox.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Window.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Separator.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Log.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\softwareDrawning.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surfaceSoftware.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surfaceDirect3D11.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surfaceDirect3D9.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surfaceVulkan.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surfaceDirectDraw.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Panel.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_PanelWindow.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\Minimap.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\Health.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Description.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\Inventory.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surfaceOpengles.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surfaceOpengles2.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\itemUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\Outfits.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Icon.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Flash.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Uint1024.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\SkillsWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_ContextMenu.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\GUI_UTIL.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_MultiTextBox.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Console.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Container.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\json\json.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\spriteManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\7zTypes.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\Alloc.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\LzFind.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\LzFindMt.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\LzHash.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\LzmaDec.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\LzmaEnc.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\LzmaLib.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\Threads.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\Precomp.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lzma\Compiler.h">
+      <Filter>Header Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\BattleWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\Chat.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\screenText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\ContainerWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui_const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\ItemMove.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI_Elements\GUI_Content.h">
+      <Filter>Header Files\GUI_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\ReadWrite.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\TradeWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\ShopWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\VipWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surfaceOpenglCore.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surfaceOpengl.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocolloginHttp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\stringExtend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\robin_hood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GUI\ServerBrowser.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <Image Include="tibia.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
