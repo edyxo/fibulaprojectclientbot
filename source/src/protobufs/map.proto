@@ -1,0 +1,51 @@
+package tibia.protobuf.map;
+
+enum AREA_TYPE {
+ AREA_TYPE_SUBAREA = 0;
+ AREA_TYPE_SATELLITE = 1;
+ AREA_TYPE_MINIMAP = 2;
+}
+
+enum VIEW_TYPE {
+ VIEW_TYPE_FAR = 1;
+ VIEW_TYPE_NEAR = 2;
+}
+
+message Map {
+ repeated Territory territories = 1;
+ repeated Npc npcs = 2;
+ repeated Area areas = 3;
+ optional Position unknown4 = 4;
+ optional Position unknown5 = 5;
+}
+
+message Position {
+ optional uint32 x = 1;
+ optional uint32 y = 2;
+ optional uint32 z = 3;
+}
+
+message Territory {
+ optional uint32 id = 1;
+ optional string name = 2;
+ optional VIEW_TYPE viewtype = 3;
+ repeated uint32 unknown4 = 4;
+ optional Position position = 5;
+ optional uint32 unknown6 = 6;
+}
+
+message Npc {
+ optional string name = 1;
+ optional Position position = 2;
+ optional uint32 unknown3 = 3;
+}
+
+message Area {
+ optional AREA_TYPE type = 1;
+ optional Position position = 2;
+ optional string name = 3;
+ optional uint32 width = 4;
+ optional uint32 height = 5;
+ optional uint32 unknown6 = 6;
+ optional fixed64 unknown7 = 7;
+}

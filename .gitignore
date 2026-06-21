@@ -1,0 +1,22 @@
+# Build outputs
+build-out/
+/Client/
+**/x64/
+**/Debug/
+**/Release/
+**/.vs/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib.recipe
+*.tlog
+*.idb
+
+# Runtime junk we never want published
+debug.log
+gmcheck_*.dat
+
+# OS junk
+Thumbs.db
+.DS_Store
