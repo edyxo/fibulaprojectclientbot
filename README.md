@@ -30,6 +30,7 @@ Fibula. Si no tienes cuenta todavía, créala en el servidor de Project Fibula.
 - `Assets/` — sprites y datos gráficos (Tibia.spr, Tibia.dat, etc.).
 - Archivos `.map` — el minimapa ya pre-cargado, para que se vea desde el primer momento.
 - `Tibia.cfg` — configuración por defecto.
+- `binance-qr.bmp` — el QR de Binance Pay de la ventana de donación.
 - `zlib1.dll`, `winmm.dll` — librerías que necesita el `.exe`.
 
 Mantén todos esos archivos **juntos en la misma carpeta**. Si separas el `.exe` de los
