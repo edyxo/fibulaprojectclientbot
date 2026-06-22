@@ -388,10 +388,11 @@ void Engine::loadCFG()
 		m_classicControl = (data == "yes" ? true : false);
 		data = cfg.fetchKey("AutoChaseOff");
 		m_autoChaseOff = (data == "yes" ? true : false);
-		data = cfg.fetchKey("DevMode");
-		m_devMode = (data == "yes" ? true : false);
-		data = cfg.fetchKey("ShowDebugCoordinates");
-		m_showDebugCoordinates = (m_devMode && data == "yes" ? true : false);
+		// Public client: dev tools (Inspector/Recorder/Low Profile/Lua terminal) are
+		// permanently disabled. We ignore the DevMode/ShowDebugCoordinates keys in the
+		// config so a leftover "DevMode = yes" can never re-enable them.
+		m_devMode = false;
+		m_showDebugCoordinates = false;
 		data = cfg.fetchKey("ManaTrainerEnabled");
 		if(!data.empty())
 			m_manaTrainer = (data == "yes" ? true : false);
