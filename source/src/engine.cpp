@@ -7658,8 +7658,6 @@ void Engine::processGameStart()
 	m_parentWindows.clear();
 
 	std::string hotkeyMessage = "Bot Hotkeys: Ctrl+Alt+M=Mana Trainer | Ctrl+Alt+H=Auto Healer | Ctrl+Alt+C=Combo Leader | Ctrl+Alt+F=Auto Fisher | Ctrl+Alt+R=Auto Runer | Ctrl+Alt+L=Auto Logout | Ctrl+Alt+E=Auto Eat";
-	if(m_devMode)
-		hotkeyMessage.append(" | Dev: Ctrl+Alt+P Low Profile | Ctrl+Alt+I Inspector | Ctrl+Alt+V Recorder");
 	g_game.processTextMessage(MessageLogin, hotkeyMessage);
 }
 

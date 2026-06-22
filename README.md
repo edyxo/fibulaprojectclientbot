@@ -52,6 +52,26 @@ Además del cliente clásico de 7.72, trae varios asistentes (todos con atajo `C
 
 Todo esto se configura desde el menú **Options** dentro del juego.
 
+> 📖 **¿Cómo se usa cada cosa?** Hay un tutorial completo con capturas en
+> **[TUTORIAL.md](TUTORIAL.md)**.
+
+---
+
+## 📸 Capturas
+
+<p align="center">
+  <img src="screenshots/01-options-menu.png" alt="Menú Options" width="240">
+  <img src="screenshots/06-auto-healer.png" alt="Auto Healer" width="240">
+  <img src="screenshots/07-combo-leader.png" alt="Combo Leader" width="240">
+</p>
+<p align="center">
+  <img src="screenshots/03-auto-logout.png" alt="Auto Logout" width="200">
+  <img src="screenshots/02-hotkeys.png" alt="Hotkeys" width="260">
+  <img src="screenshots/04-auto-runer.png" alt="Auto Runer" width="240">
+</p>
+
+Más capturas y la explicación de cada asistente en **[TUTORIAL.md](TUTORIAL.md)**.
+
 ---
 
 ## 🛠️ Compilar tú mismo (para quien quiera forkear)
