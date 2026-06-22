@@ -3,6 +3,8 @@
 Cliente custom de **Tibia 7.72** hecho para el servidor **Project Fibula** (`world.fibula.app`).
 Escrito en C++ con SDL2. Open source. Si quieres jugar, es bajar y darle doble click — nada más.
 
+> 🌎 *English version: [README.en.md](README.en.md)*
+
 > Este cliente está hecho **específicamente para Project Fibula**. Usa sprites y datos
 > propios de ese servidor, así que no está pensado para conectarse a otros servers.
 
